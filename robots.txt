@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /hendrikhaack-visitenkarte.vcf

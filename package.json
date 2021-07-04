@@ -1,0 +1,19 @@
+{
+  "author": "EINSINN <hallo@einsinn.de>",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "postcss-focus-visible": "^5.0.0",
+    "tailwindcss": "^2.1.2",
+    "tailwindcss-interaction-variants": "^5.0.0"
+  },
+  "scripts": {
+    "develop": "postcss assets/css/tailwind.css -o dist/style.css",
+    "production": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o dist/style.css"
+  }
+}

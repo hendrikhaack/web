@@ -1,6 +1,5 @@
 module.exports = {
-  purge: [ './index.html' ],
-  darkMode: 'media',
+  content: ['./index.html'],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -35,19 +34,19 @@ module.exports = {
         },
       },
       zIndex: {
-        '-1': '-1',
+        '-10': '-10',
       },
     },
   },
-  variants: {
-    extend: {
-      opacity: ['group-focus-visible'],
-      ringWidth: ['focus-visible', 'group-focus-visible'],
-      textColor: ['can-hover'],
-      translate: ['group-hover', 'group-focus-visible'],
-      width: ['group-hover'],
-    },
-  },
+  // variants: {
+  //   extend: {
+  //     opacity: ['group-focus-visible'],
+  //     ringWidth: ['focus-visible', 'group-focus-visible'],
+  //     textColor: ['can-hover'],
+  //     translate: ['group-hover', 'group-focus-visible'],
+  //     width: ['group-hover'],
+  //   },
+  // },
   plugins: [
     require('tailwindcss-interaction-variants'),
   ],

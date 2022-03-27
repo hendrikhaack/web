@@ -1,15 +1,14 @@
 {
-  "author": "EINSINN <hallo@einsinn.de>",
-  "private": true,
-  "dependencies": {},
+  "author": "Hendrik Haack <hi@hendrikhaack.de>",
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.2",
     "postcss": "^8.2.13",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^9.1.0",
+    "postcss-focus": "^5.0.1",
     "postcss-focus-visible": "^5.0.0",
-    "tailwindcss": "^2.1.2",
+    "tailwindcss": "^3.0.23",
     "tailwindcss-interaction-variants": "^5.0.0"
   },
   "scripts": {
